@@ -1,6 +1,6 @@
 Flask==1.1.1
 flask-restplus==0.13.0
 Flask-Cors==3.0.8
-git+https://{{ token_git}}:x-oauth-basic@github.com/IHCantabria/datahub.client@v0.3.3
-git+https://{{ token_git}}:x-oauth-basic@github.com/IHCantabria/msp.tools.git@v0.12.0
+git+https://${TOKEN_GIT}:x-oauth-basic@github.com/IHCantabria/datahub.client@v0.3.3
+git+https://${TOKEN_GIT}:x-oauth-basic@github.com/IHCantabria/msp.tools.git@v0.12.0
 Werkzeug==0.16.0
